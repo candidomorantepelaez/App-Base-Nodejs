@@ -1,0 +1,34 @@
+{
+  "name": "base-app-nodejs",
+  "version": "0.0.1",
+  "description": "arquetipo base para nodejs",
+  "author": "Candido Morante",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "excel4node": "^1.3.6",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "joi": "^13.5.2",
+    "jsonwebtoken": "^8.3.0",
+    "nedb": "^1.8.0",
+    "npm": "^6.0.1",
+    "ramda": "^0.25.0",
+    "winston": "^3.0.0"
+  },
+  "scripts": {
+    "start": "npm start",
+    "dist": "build",
+    "test": "./node_modules/.bin/mocha --watch --reporter spec"
+  },
+  "main": "main.js",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "electron": "^2.0.8",
+    "electron-builder": "^20.15.1",
+    "mocha": "^5.2.0",
+    "mock-express-response": "^0.2.2"
+  }
+}
