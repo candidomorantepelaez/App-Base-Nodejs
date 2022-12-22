@@ -12,7 +12,7 @@
     "fstream": "^1.0.12",
     "helmet": "^3.15.0",
     "joi": "^14.1.0",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.15",
     "mem": "^5.1.1",
     "nedb": "^1.8.0",
